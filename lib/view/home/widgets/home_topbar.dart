@@ -65,9 +65,9 @@ class HomeTopbar extends StatelessWidget {
           top: 58.h,
           right: 16.w,
           child: Container(
-            width: 58.w,
-            height: 58.h,
-            decoration: BoxDecoration(
+            width: 56.w,
+            height: 56.h,
+            decoration: const BoxDecoration(
               color: ColorConstant.primary,
               shape: BoxShape.circle,
             ),
@@ -93,9 +93,9 @@ class HomeTopbar extends StatelessWidget {
             height: 44.h,
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(14.r),
+              borderRadius: BorderRadius.circular(8.r),
             ),
-            padding: EdgeInsets.symmetric(horizontal: 18.w),
+            padding: EdgeInsets.symmetric(horizontal: 16.w),
             child: Row(
               children: [
                 Image.asset(AppIcons.searchIcon, height: 16.sp, width: 16.sp),

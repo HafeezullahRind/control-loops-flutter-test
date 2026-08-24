@@ -12,12 +12,13 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
           children: [
-            HomeTopbar(),
+            const HomeTopbar(),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 24.w, vertical: 28.h),
+              padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 24.h),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
