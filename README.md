@@ -24,8 +24,8 @@ flutter doctor
 
 ### 1. Clone the repository
 ```bash
-git clone <https://github.com/hafeez021/control-loops-flutter-test.git>
-cd flutter_test_app
+git clone https://github.com/HafeezullahRind/control-loops-flutter-test.git
+cd control-loops-flutter-test
 ```
 
 ### 2. Install dependencies
